@@ -94,13 +94,15 @@
 ### 🌐 Connect With Me  
 
 <p align="center">
-  <a href="mailto:your_email_here@gmail.com">
+  <a href="mailto:yashpatilcareer@gmail.com">
+  </a>
+  <a href="mailto:patil.y1@northeastern.edu">
     <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://linkedin.com/in/yashpatil">
+  <a href="https://www.linkedin.com/in/yash-patil-57a53a1a6">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://github.com/YashPatil">
+  <a href="https://github.com/yashpatil-byte">
     <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
   </a>
 </p>
