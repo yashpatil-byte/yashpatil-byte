@@ -1,125 +1,83 @@
-<!-- Yash Patil — GitHub Profile README -->
+# Hi, I’m Yash Patil 👋  
 
-<h1 align="center">👋 Hey, I'm <span style="color:#5A9BD5;">Yash Patil</span></h1>
-<h3 align="center">🚀 Software Engineer | ML Systems Developer | Northeastern University</h3>
+🎓 MS in Computer Science @ Northeastern University  
+⚙️ Systems & Infrastructure Engineer | Distributed Systems | Performance Engineering  
 
-<p align="center">
-  <em>Building intelligent, scalable systems that bridge the gap between software engineering and machine learning.</em>
-</p>
-
----
-
-### 🧠 About Me  
-🎓 **MS in Computer Science** @ Northeastern University (Boston)  
-💻 Passionate about **Systems Design**, **Machine Learning**, and **Distributed Computing**  
-🧩 Strong in **Python**, **C++**, and **System-Level Thinking**  
-🌍 Exploring how **scalable engineering** and **intelligent automation** converge  
+I build **high-performance, fault-tolerant systems** with a focus on **concurrency, low-latency messaging, streaming engines, and distributed storage**.  
+My work emphasizes **measurable performance, correctness under failure, and production-grade system design**.
 
 ---
 
-### ⚙️ Tech Stack
-
-#### 💻 Languages  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-
-#### 🧩 Frameworks & Tools  
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+## 🔧 Technical Focus
+- **Concurrent & Lock-Free Programming** (C++ atomics, fine-grained locking)
+- **Distributed Systems** (replication, partitioning, fault tolerance)
+- **Streaming & Messaging Systems** (exactly-once semantics, backpressure)
+- **Performance Engineering** (P99 latency, throughput benchmarking)
+- **Reliability** (WAL, checkpoints, chaos testing, recovery)
 
 ---
 
-### 🚀 Featured Projects  
+## 🚀 Featured Projects
 
-#### 🧵 **Multithreaded File Downloader**  
-> A high-performance downloader using Python’s `ThreadPoolExecutor` and multiprocessing.  
-- Increased throughput by **4×** with thread pooling and I/O optimization.  
-- Added **automatic retry**, **progress tracking**, and **timeout management**.  
-🔗 [View Repository](#)
-
----
-
-#### 💾 **Key-Value Store / Cache System**  
-> A lightweight, Redis-inspired in-memory store built from scratch.  
-- Implemented **TTL expiry**, **LRU eviction**, and **persistent disk backup**.  
-- Designed **thread-safe access** using locks and multiprocessing queues.  
-🔗 [View Repository](#)
+### **StreamFlow — Distributed Real-Time Stream Processing Engine**
+*Go · Kafka · BoltDB · Prometheus · Docker*  
+- Achieved **163K events/sec** with **<20µs P99 latency** using hash-partitioned parallel workers  
+- Implemented **event-time windowing** (tumbling, sliding, session) with millisecond precision  
+- Built **checkpoint-replay** system enabling **exactly-once processing** and <8s recovery  
+- Integrated **token-bucket backpressure** to sustain throughput under **10× traffic spikes**
 
 ---
 
-#### 🧠 **ML From Scratch Library**  
-> Implemented fundamental ML algorithms manually using NumPy.  
-- Developed **Linear/Logistic Regression**, **K-Means**, **Gradient Descent**  
-- Focused on **vectorization** and numerical stability.  
-🔗 [View Repository](#)
+### **NanoMQ — Ultra-Low-Latency Message Queue**
+*C++17 · Lock-Free Programming · mmap · Docker*  
+- Built **lock-free SPSC queue** achieving **83ns P99 latency** and **1.2M msgs/sec**  
+- Reduced CPU utilization by **73%** using **zero-copy memory-mapped I/O**  
+- Designed **crash-recoverable WAL** with CRC32 integrity for zero message loss  
+- Validated with extensive benchmarks, stress tests, and containerized deployment
 
 ---
 
-#### 🧩 **ML Model Serving API**  
-> A production-grade FastAPI backend for real-time ML inference.  
-- Async inference pipeline + background worker queue.  
-- Deployed via **Docker** and **AWS EC2** with CI/CD automation.  
-🔗 [View Repository](#)
+### **MiniKV — Distributed Key-Value Store**
+*Python · FastAPI · Consistent Hashing · Prometheus · Docker*  
+- Architected **3-node distributed KV store** delivering **250K+ ops/sec** with **<5ms P99 latency**  
+- Implemented **async replication** with **Merkle-tree anti-entropy**, cutting recovery time by **85%**  
+- Built **heartbeat-based failover** ensuring **99.9% availability** during node failures  
+- Verified reliability using **chaos testing** and network partition simulations
 
 ---
 
-#### ⚡ **Smart ML Cache (Capstone Project)**  
-> A distributed caching layer for ML inference workloads — inspired by Redis and TensorFlow Serving.  
-- Handled **parallel requests**, **fault tolerance**, and **latency optimization**.  
-- Added monitoring dashboard for **real-time system metrics**.  
-🔗 [View Repository](#)
+### **SwiftLoad — Multithreaded File Downloader**
+*Python · concurrent.futures · Docker · Linux*  
+- Improved download throughput by **41.7% (1.71×)** using HTTP Range request parallelism  
+- Designed **deadlock-free, thread-safe file writer** with zero corruption across **1,000+ concurrent writes**  
+- Implemented **exponential backoff retries** improving success rate by **35% under packet loss**  
+- Delivered modular, test-driven architecture with **48+ unit/integration/performance tests**
 
 ---
 
-### 🧩 System Design Expertise  
-- Concurrency & Thread Synchronization (Locks, Semaphores, Queues)  
-- Distributed System Design & Task Orchestration  
-- Scalable ML Training & Deployment Pipelines  
-- Performance Tuning, Profiling & Fault Tolerance  
+## 🛠 Tech Stack
+
+**Languages:** Python, C++, C, Java, SQL, Bash  
+**Databases:** PostgreSQL, MySQL, MongoDB, SQLite, Redis  
+**Systems & Cloud:** Linux, Docker, AWS, GCP, FastAPI, Flask  
+**Tools:** Git, CMake, Jenkins, Prometheus, NumPy, PyTorch, TensorFlow  
 
 ---
 
-### 💼 Career Interests  
-🎯 **Software Development Engineer (SDE)**  
-🤖 **Machine Learning Engineer / MLOps**  
-⚙️ **Distributed Systems / Infrastructure Engineering**
+## 💼 Experience
+
+**AI Intern — JustDial (AI Team)**  
+- Built generative AI ad pipelines increasing engagement by **25%** and CTR by **15%**  
+- Optimized object detection pipelines achieving **92% accuracy** and **30% lower latency**  
+- Improved large-scale image processing workflows, reducing end-to-end processing time by **20%**
 
 ---
 
-### 🌐 Connect With Me  
-
-<p align="center">
-  <a href="mailto:yashpatilcareer@gmail.com">
-  </a>
-  <a href="mailto:patil.y1@northeastern.edu">
-    <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/yash-patil-57a53a1a6">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/yashpatil-byte">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
-  </a>
-</p>
+## 📫 Let’s Connect
+- **GitHub:** https://github.com/yashpatil-byte  
+- **LinkedIn:** https://www.linkedin.com/in/yash-patil-57a53a1a6  
+- **Email:** yashpatilcareer@gmail.com  
 
 ---
 
-### 📈 GitHub Stats  
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=YashPatil&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=YashPatil&theme=tokyonight" />
-</p>
-
----
-
-### 🧭 Quote to Live By  
-> *“Build systems that think — not scripts that run.”*  
-> — Yash Patil
-
----
+⭐ If you’re interested in **systems engineering, distributed infrastructure, or performance-critical software**, feel free to explore my projects or reach out.
