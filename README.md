@@ -57,7 +57,7 @@ My work emphasizes **measurable performance, correctness under failure, and prod
 
 ## 🛠 Tech Stack
 
-**Languages:** Python, C++, C, Java, SQL, Bash  
+**Languages:**C++, Python, C, Java, SQL, Bash  
 **Databases:** PostgreSQL, MySQL, MongoDB, SQLite, Redis  
 **Systems & Cloud:** Linux, Docker, AWS, GCP, FastAPI, Flask  
 **Tools:** Git, CMake, Jenkins, Prometheus, NumPy, PyTorch, TensorFlow  
