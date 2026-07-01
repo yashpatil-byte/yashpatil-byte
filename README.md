@@ -66,10 +66,15 @@ My work emphasizes **measurable performance, correctness under failure, and prod
 
 ## 💼 Experience
 
-**AI Intern — JustDial (AI Team)**  
-- Built generative AI ad pipelines increasing engagement by **25%** and CTR by **15%**  
-- Optimized object detection pipelines achieving **92% accuracy** and **30% lower latency**  
-- Improved large-scale image processing workflows, reducing end-to-end processing time by **20%**
+Software Development Engineer Intern — Infosys
+- Built distributed stream processor handling 163K events/sec with <20µs P99 latency using concurrency and hash partitioning
+- Reduced recovery time 90% (30s → 3s) through automated checkpointing with replay mechanism ensuring zero data loss
+- Stabilized system under 10x traffic spikes maintaining 99%+ throughput via adaptive backpressure and flow control
+
+Software Development Engineer Intern — JustDial
+- Built ML prediction platform serving 100K predictions/sec with 99.99% uptime using Kafka streaming and Redis caching
+- Reduced infrastructure costs 40% through multi-instance deployment with load balancing and circuit breakers
+- Achieved sub-5ms P99 response time across 10+ distributed instances using gRPC and health monitoring
 
 ---
 
