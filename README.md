@@ -19,15 +19,6 @@ My work emphasizes **measurable performance, correctness under failure, and prod
 
 ## 🚀 Featured Projects
 
-### **StreamFlow — Distributed Real-Time Stream Processing Engine**
-*Go · Kafka · BoltDB · Prometheus · Docker*  
-- Achieved **163K events/sec** with **<20µs P99 latency** using hash-partitioned parallel workers  
-- Implemented **event-time windowing** (tumbling, sliding, session) with millisecond precision  
-- Built **checkpoint-replay** system enabling **exactly-once processing** and <8s recovery  
-- Integrated **token-bucket backpressure** to sustain throughput under **10× traffic spikes**
-
----
-
 ### **NanoMQ — Ultra-Low-Latency Message Queue**
 *C++17 · Lock-Free Programming · mmap · Docker*  
 - Built **lock-free SPSC queue** achieving **83ns P99 latency** and **1.2M msgs/sec**  
